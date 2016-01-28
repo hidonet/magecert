@@ -5,22 +5,22 @@ chapter: 6
 meta-description: Manage admin area forms and grids.
 ---
 
-# Adminhtml
+# Adminhtml ( Yönetim Kısmı )
 
-Exam proportion: 7%.
+Sınavdaki payı : 7%.
 
-## Architecture
+## Yapı
 
-### Configuration
+### Konfigürasyon
 
-Configuration areas that are loaded for the admin area are
+Yönetim kısmı için yüklenen konfigürasyon kısımları şunlardır
 
 - `<menu>`
 - `<acl>`
 - `<admin>`
 - `<adminhtml>`
 
-### Adminhtml Controller
+### Adminhtml Kontrolcüsü
 
 The adminhtml controller extends `Mage_Adminhtml_Controller_Action`.  In contrast to the frontend controllers, which extend `Mage_Core_Controller_Front_Action`.
 
